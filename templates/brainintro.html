@@ -1,0 +1,83 @@
+<html>
+	<head>
+	<title>Brain Tumor Detection</title>
+	<style>
+		.header {	
+			top:0px;	
+			margin:0px;
+			left: 0px;
+			right: 0px;
+			position: fixed;
+			background: #494949;
+			color: white;
+			overflow: hidden;
+			padding-bottom: 30px;
+			font-size: 2.25vw;
+			width: 100%;
+			padding-left:0px;
+			text-align: center;
+			padding-top:15px;
+		}
+		.second{
+			top:70px;
+			bottom:0px;
+			margin:0px;
+			left: 0px;
+			right: 0%;
+			position: fixed;
+			padding: 0px;
+			width: 100%;
+			
+			background-image:url({{url_for('static',filename="images/ct3.gif")}}); 
+			background-repeat:no-repeat;
+			background-size: contain;
+			
+		}
+		.inside{
+			top:70px;
+			bottom:0px;
+			margin:0px;
+			left: 45%;
+			right: 0%;
+			position: fixed;
+			padding-left: 40px;
+			padding-top:8%;
+			padding-right:10%;
+			background-color:#0F0F0F;
+			font-family:Georgia, serif;
+			color:white;
+			font-size:20px;
+			text-align:justify;
+			
+		}
+		.myButton{
+			  border: none;
+			  text-align: center;
+			  cursor: pointer;
+			  text-transform: uppercase;
+			  outline: none;
+			  overflow: hidden;
+			  color: #000;
+			  font-weight: 700;
+			  font-size: 12px;
+			  background-color: #878787;
+			  padding: 10px 15px;
+			  margin: 0 auto;
+			  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+		}
+	</style>
+	</head>
+	<body>
+		<div class="header">Brain Tumor Detection using MRI</div>
+		<div class="second">
+			<div class="inside">Brain tumor identification is really challenging task in early stages of life. These days issue of brain tumor automatic identification is of great interest. Tumor is the unusual growth of the tissues. A brain tumor is a quantity of unnecessary cells growing in the brain or central spine canal.  It is an unrestrained progress of cancer cells in any portion of the body. In Order to detect the brain tumor of a patient, MRI images of a patient’s brain are considered. This application helps you detect the tumor and store the patient's data.
+		<br><br><br>
+		<div style="margin-left:30%">
+		<a href="{{url_for('predict1')}}"><button type="button" class="myButton" >Drop the scan for detection!</button></a>
+		</div>
+		</div>
+		
+		
+		</div>
+	</body>
+</html>
