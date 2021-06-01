@@ -31,3 +31,7 @@ Made a flask app for testing the model in google colab.Below is the demo of the 
 
 ![](https://github.com/dikshabhati1/Brain-MRI-Segmentation/blob/main/flask%20demo/flask2.jpeg)
 
+
+# Predictions 
+Here are the below predictions for 3 images
+![](https://github.com/dikshabhati1/Brain-MRI-Segmentation/blob/main/flask%20demo/predictions.JPG)
