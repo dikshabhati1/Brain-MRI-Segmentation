@@ -19,7 +19,7 @@ Used callbacks to avoid overfitting.For classification task training acuracy ach
 ![](https://github.com/dikshabhati1/Brain-MRI-Segmentation/blob/main/flask%20demo/seg-scores.JPG)
 
 # Flask Demo
-Made a flask app for testing the model in google colab.Below is the demo of the web app
+Made a flask app for testing the model in google colab that can detect the tumor and then stores the data to a csv file.Below is the demo of the web app 
 
 ![](https://github.com/dikshabhati1/Brain-MRI-Segmentation/blob/main/flask%20demo/ezgif.com-gif-maker.gif)
 
