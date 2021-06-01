@@ -8,3 +8,5 @@
 ![](flask demo/flask1.jpeg)
 
 ![](flask demo/flask2.jpeg)
+
+![](flask demo/predictions.JPG)
